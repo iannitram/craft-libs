@@ -61,3 +61,5 @@ Shared Rust libraries for the Craft Apps.
 - **No app code.** A crate here must be useful to more than one app and must not depend on any app.
 - **Before merging:** `cargo fmt --check`, `cargo clippy --workspace --all-targets -- -D warnings`,
   `cargo test --workspace`.
+
+**Upstream and peers:** see `PEERS.md` at the repo root. When I say "upstream", I mean the repo in its Upstream section; reuse a peer's code only as that file allows.
